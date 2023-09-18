@@ -1,4 +1,4 @@
-#!/usr/bin/env php
+#*/usr/bin/env php
 <?php
 // +----------------------------------------------------------------------
 // | ThinkPHP [ WE CAN DO IT JUST THINK ]
@@ -14,4 +14,4 @@
 define('APP_PATH', './application/');
 
 // 加载框架引导文件
-require './thinkphp/console.php';
+require './thinkphp/console.php'; 
