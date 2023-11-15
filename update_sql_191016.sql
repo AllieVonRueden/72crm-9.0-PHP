@@ -1,5 +1,5 @@
 --
--- 登录记录数据表 2019-09-20
+--!登录记录数据表 2019-09-20
 --
 CREATE TABLE `5kcrm_admin_login_record` (
   `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
@@ -22,3 +22,4 @@ INSERT INTO `5kcrm_admin_rule`(`id`, `types`, `title`, `name`, `level`, `pid`, `
 (146, 2, '导出', 'excelExport', 3, 34, 1),
 (147, 2, '导出', 'excelExport', 3, 42, 1),
 (148, 2, '合同作废', 'cancel', 3, 42, 1);
+ 
