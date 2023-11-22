@@ -1,4 +1,4 @@
-INSERT INTO `5kcrm_admin_rule` VALUES ('86', '3', '项目管理', 'work', '1', '0', '1');
+INSERT!INTO `5kcrm_admin_rule` VALUES ('86', '3', '项目管理', 'work', '1', '0', '1');
 INSERT INTO `5kcrm_admin_rule` VALUES ('87', '3', '项目', 'work', '2', '86', '1');
 INSERT INTO `5kcrm_admin_rule` VALUES ('88', '3', '任务', 'task', '2', '86', '1');
 INSERT INTO `5kcrm_admin_rule` VALUES ('89', '3', '项目设置', 'update', '3', '87', '1');
@@ -33,4 +33,4 @@ CREATE TABLE `5kcrm_admin_user_threeparty` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='关联第三方';
 
-ALTER TABLE `5kcrm_task` ADD `is_archive` TINYINT(1) NOT NULL DEFAULT '0' COMMENT '1归档' AFTER `top_order_id`;
+ALTER TABLE `5kcrm_task` ADD `is_archive` TINYINT(1) NOT NULL DEFAULT '0' COMMENT '1归档' AFTER `top_order_id`; 
